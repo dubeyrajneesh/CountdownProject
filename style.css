@@ -1,0 +1,99 @@
+.main{
+    /* border: 2px solid red ; */
+}
+
+.container1{
+    /* border: 2px solid yellow ; */
+    /* background-color:aqua; */
+}
+.image{   
+    /* background-color:aqua; */
+}
+.para1{
+    background-color:rgb(150, 125, 173);
+}
+
+.container2{
+    /* border: 2px solid purple ; */
+}
+
+.main{
+    display: flex;
+}
+
+.deadline{
+    display: flex ;
+}
+
+.deadline-format{
+    margin: 8px 15px ;
+    padding: 8px 15px ;
+    background-color:black;
+    color:white;
+}
+
+.deadline{
+    display: flex ;
+    justify-content: center;
+    align-items: center ;
+}
+
+@media only screen and ( max-width: 650px)
+{
+    .main{
+        display: block ;
+    }
+}
+
+@media only screen and( max-width: 500px)
+{
+
+    .deadline-day{
+        margin: 10px 15px ;
+        padding: 10px 15px ;
+        background-color:black;
+        color:white;
+    }
+    
+    .deadline-hours{
+        margin: 10px 15px ;
+        padding: 10px 15px ;
+        background-color:black;
+        color:white;
+    }
+    
+    
+    .deadline-minute{
+        margin: 10px 15px ;
+        padding: 10px 15px ;
+        background-color:black;
+        color:white;
+    }
+    
+    .deadline-second{
+        margin: 10px 15px ;
+        padding: 10px 15px ;
+        background-color:black;
+        color:white;
+    }
+    
+    .deadline{
+        display: flex ;
+        justify-content: center;
+        align-items: center ;
+    }
+}
+
+.head1{
+    background-color:aquamarine;
+    display: flex ;
+    justify-content: center  ;
+    align-items : center  ;
+    color : red ;
+}
+
+.head2{
+
+    background-color:blanchedalmond;
+    display: felx ;
+}
